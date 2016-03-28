@@ -1,0 +1,45 @@
+package: github.com/arschles/storage
+import:
+- package: github.com/Azure/azure-sdk-for-go
+  subpackages:
+  - storage
+- package: github.com/Sirupsen/logrus
+- package: github.com/aws/aws-sdk-go
+  subpackages:
+  - aws
+  - aws/awserr
+  - aws/credentials
+  - aws/credentials/ec2rolecreds
+  - aws/ec2metadata
+  - aws/request
+  - aws/session
+  - service/s3
+- package: github.com/docker/distribution
+  subpackages:
+  - context
+  - registry/client/transport
+  - registry/storage/driver
+  - registry/storage/driver/base
+  - registry/storage/driver/factory
+  - uuid
+- package: github.com/docker/goamz
+  subpackages:
+  - aws
+  - s3
+- package: github.com/gorilla/mux
+- package: github.com/pborman/uuid
+- package: golang.org/x/net
+  subpackages:
+  - context
+- package: golang.org/x/oauth2
+  subpackages:
+  - google
+  - jwt
+- package: google.golang.org/api
+  subpackages:
+  - googleapi
+  - storage/v1
+- package: google.golang.org/cloud
+  subpackages:
+  - storage
+- package: gopkg.in/check.v1

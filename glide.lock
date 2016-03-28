@@ -1,0 +1,118 @@
+hash: 4698889e89778f7c1ecc526bfc1bb288210cc094550069db5bd222d08a051325
+updated: 2016-03-28T11:33:47.904196112-07:00
+imports:
+- name: github.com/aws/aws-sdk-go
+  version: 49c3892b61af1d4996292a3025f36e4dfa25eaee
+  subpackages:
+  - aws
+  - aws/awserr
+  - aws/credentials
+  - aws/credentials/ec2rolecreds
+  - aws/ec2metadata
+  - aws/request
+  - aws/session
+  - service/s3
+  - aws/client
+  - aws/client/metadata
+  - aws/awsutil
+  - aws/corehandlers
+  - aws/defaults
+  - private/endpoints
+  - private/protocol
+  - private/protocol/restxml
+  - private/signer/v4
+  - private/waiter
+  - private/protocol/query
+  - private/protocol/rest
+  - private/protocol/xml/xmlutil
+  - private/protocol/query/queryutil
+- name: github.com/Azure/azure-sdk-for-go
+  version: 87f124528efecc3360e843baf76d858de2b4d3e1
+  subpackages:
+  - storage
+- name: github.com/docker/distribution
+  version: 72ec74834b2b84441791b4fc16c431c6b0d5a742
+  subpackages:
+  - context
+  - registry/client/transport
+  - registry/storage/driver
+  - registry/storage/driver/base
+  - registry/storage/driver/factory
+  - uuid
+- name: github.com/docker/goamz
+  version: f0a21f5b2e12f83a505ecf79b633bb2035cf6f85
+  subpackages:
+  - aws
+  - s3
+- name: github.com/go-ini/ini
+  version: afbd495e5aaea13597b5e14fe514ddeaa4d76fc3
+- name: github.com/golang/protobuf
+  version: 8d92cf5fc15a4382f8964b08e1f42a75c0591aa3
+  subpackages:
+  - proto
+- name: github.com/gorilla/context
+  version: 14f550f51af52180c2eefed15e5fd18d63c0a64a
+- name: github.com/gorilla/mux
+  version: e444e69cbd2e2e3e0749a2f3c717cec491552bbf
+- name: github.com/jmespath/go-jmespath
+  version: 0b12d6b521d83fc7f755e7cfc1b1fbdd35a01a74
+- name: github.com/pborman/uuid
+  version: c55201b036063326c5b1b89ccfe45a184973d073
+- name: github.com/Sirupsen/logrus
+  version: 55eb11d21d2a31a3cc93838241d04800f52e823d
+- name: golang.org/x/net
+  version: 4876518f9e71663000c348837735820161a42df7
+  subpackages:
+  - context
+  - context/ctxhttp
+  - http2
+  - trace
+  - http2/hpack
+  - internal/timeseries
+- name: golang.org/x/oauth2
+  version: 045497edb6234273d67dbc25da3f2ddbc4c4cacf
+  subpackages:
+  - google
+  - jwt
+  - internal
+  - jws
+- name: google.golang.org/api
+  version: 9bf6e6e569ff057f75d9604a46c52928f17d2b54
+  subpackages:
+  - googleapi
+  - storage/v1
+  - googleapi/internal/uritemplates
+  - gensupport
+- name: google.golang.org/appengine
+  version: 12d5545dc1cfa6047a286d5e853841b6471f4c19
+  subpackages:
+  - internal
+  - internal/app_identity
+  - internal/base
+  - internal/datastore
+  - internal/log
+  - internal/modules
+  - internal/remote_api
+  - urlfetch
+  - internal/urlfetch
+- name: google.golang.org/cloud
+  version: 975617b05ea8a58727e6c1a06b6161ff4185a9f2
+  subpackages:
+  - storage
+  - compute/metadata
+  - internal
+  - internal/opts
+- name: google.golang.org/grpc
+  version: d3ddb4469d5a1b949fc7a7da7c1d6a0d1b6de994
+  subpackages:
+  - codes
+  - credentials
+  - grpclog
+  - internal
+  - metadata
+  - naming
+  - peer
+  - transport
+- name: gopkg.in/check.v1
+  version: 4f90aeace3a26ad7021961c297b22c42160c7b25
+devImports: []
