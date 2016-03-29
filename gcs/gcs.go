@@ -39,7 +39,7 @@ import (
 	"google.golang.org/cloud"
 	"google.golang.org/cloud/storage"
 
-	ctx "github.com/docker/distribution/context"
+	ctx "github.com/arschles/storage/context"
 	storagedriver "github.com/docker/distribution/registry/storage/driver"
 	"github.com/docker/distribution/registry/storage/driver/base"
 	"github.com/docker/distribution/registry/storage/driver/factory"

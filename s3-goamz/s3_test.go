@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/docker/distribution/context"
+	"github.com/arschles/storage/context"
 	storagedriver "github.com/docker/distribution/registry/storage/driver"
 	"github.com/docker/distribution/registry/storage/driver/testsuites"
 	"github.com/docker/goamz/aws"

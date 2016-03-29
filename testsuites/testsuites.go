@@ -15,7 +15,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/distribution/context"
+	"github.com/arschles/storage/context"
 	storagedriver "github.com/docker/distribution/registry/storage/driver"
 	"gopkg.in/check.v1"
 )

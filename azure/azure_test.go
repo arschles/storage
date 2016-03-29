@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	storagedriver "github.com/docker/distribution/registry/storage/driver"
-	"github.com/docker/distribution/registry/storage/driver/testsuites"
+	storagedriver "github.com/arschles/storage"
+	"github.com/arschles/storage/testsuites"
 	. "gopkg.in/check.v1"
 )
 
@@ -47,7 +47,7 @@ func init() {
 		}
 	}
 
-	azureDriverConstructor := func() (storagedriver.StorageDriver, error) {
+	azureDriverConstructor := func() (storage.Driver, error) {
 		return New(accountName, accountKey, container, realm)
 	}
 

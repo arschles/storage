@@ -28,7 +28,7 @@ import (
 	"github.com/docker/goamz/aws"
 	"github.com/docker/goamz/s3"
 
-	"github.com/docker/distribution/context"
+	"github.com/arschles/storage/context"
 	"github.com/docker/distribution/registry/client/transport"
 	storagedriver "github.com/docker/distribution/registry/storage/driver"
 	"github.com/docker/distribution/registry/storage/driver/base"

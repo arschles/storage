@@ -9,7 +9,7 @@ import (
 	"path"
 	"time"
 
-	"github.com/docker/distribution/context"
+	"github.com/arschles/storage/context"
 	storagedriver "github.com/docker/distribution/registry/storage/driver"
 	"github.com/docker/distribution/registry/storage/driver/base"
 	"github.com/docker/distribution/registry/storage/driver/factory"

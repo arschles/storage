@@ -26,8 +26,9 @@ func (ic *instanceContext) Value(key interface{}) interface{} {
 			// We want to lazy initialize the UUID such that we don't
 			// call a random generator from the package initialization
 			// code. For various reasons random could not be available
-			// https://github.com/docker/distribution/issues/782
-			ic.id = uuid.Generate().String()
+			// https://github.com/docker/distribution/issues/782.
+			// Note that we're ignoring the issue
+			ic.id = uuid.New()
 		})
 		return ic.id
 	}
